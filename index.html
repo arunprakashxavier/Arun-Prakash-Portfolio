@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Prakash - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth; /* For smooth scrolling on navigation */
+        }
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .project-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(100, 116, 139, 0.3);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(71, 85, 105, 0.1), 0 4px 6px -2px rgba(71, 85, 105, 0.05);
+        }
+        .skill-item {
+            border: 1px solid rgba(100, 116, 139, 0.3);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            transition: box-shadow 0.3s ease;
+        }
+        .skill-item:hover {
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-sky-900 text-slate-200 min-h-screen">
+
+<nav class="bg-slate-800/70 backdrop-blur-md shadow-lg fixed w-full top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-sky-400">Arun Prakash</a>
+        <div class="space-x-4">
+            <a href="#about" class="hover:text-sky-400 transition-colors duration-300">About</a>
+            <a href="#skills" class="hover:text-sky-400 transition-colors duration-300">Skills</a>
+            <a href="#projects" class="hover:text-sky-400 transition-colors duration-300">Projects</a>
+            <a href="#contact" class="hover:text-sky-400 transition-colors duration-300">Contact</a>
+            <a href="Arun_Prakash_Resume (11).pdf" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-300">Resume PDF</a>
+        </div>
+    </div>
+</nav>
+
+<header id="about" class="pt-32 pb-12 md:pt-40 md:pb-12"> <div class="container mx-auto px-6 text-center">
+    <img src="images/profile.jpg" alt="Arun Prakash" class="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full mb-6 border-4 border-sky-500 shadow-xl object-cover">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+        Hi, I'm <span class="gradient-text bg-gradient-to-r from-sky-400 to-cyan-300">Arun Prakash</span>!
+    </h1>
+    <p class="text-lg md:text-2xl text-slate-300 mb-2">
+        I'm a <span class="font-semibold text-sky-400">Full-Stack Java Developer</span>.
+    </p>
+    <p class="text-md md:text-lg text-slate-400 max-w-2xl mx-auto mb-8">
+        Electronics and Communication Engineer turned Full-Stack Developer with hands-on experience building and deploying scalable Java applications using Spring Boot. Proven ability to architect secure RESTful APIs, implement role-based security, and integrate third-party services like Stripe. Combines a background in data analysis with strong technical skills to build robust and efficient web solutions.
+    </p>
+    <a href="#projects" class="bg-sky-500 hover:bg-sky-600 text-white font-semibold px-8 py-3 rounded-lg text-lg transition-transform duration-300 inline-block transform hover:scale-105 shadow-lg">
+        View My Work <i class="fas fa-arrow-down ml-2"></i>
+    </a>
+</div>
+</header>
+
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 space-y-6 md:space-y-10 mb-6 md:mb-10">
+
+    <section id="skills" class="py-10 md:py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-sky-400">My Technical Skills</h2> <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 text-center">
+            <div class="skill-item">
+                <i class="fab fa-java fa-3x text-orange-500 mb-3"></i>
+                <h3 class="text-xl font-semibold">Java</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-js-square fa-3x text-yellow-400 mb-3"></i>
+                <h3 class="text-xl font-semibold">JavaScript</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-html5 fa-3x text-red-500 mb-3"></i>
+                <h3 class="text-xl font-semibold">HTML5</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-css3-alt fa-3x text-blue-500 mb-3"></i>
+                <h3 class="text-xl font-semibold">CSS3</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-leaf fa-3x text-green-500 mb-3"></i> <h3 class="text-xl font-semibold">Spring Boot</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-shield-alt fa-3x text-sky-400 mb-3"></i> <h3 class="text-xl font-semibold">Spring Security</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-layer-group fa-3x text-teal-400 mb-3"></i> <h3 class="text-xl font-semibold">Spring Data JPA</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-html5 fa-3x text-lime-500 mb-3"></i> <h3 class="text-xl font-semibold">Thymeleaf</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-database fa-3x text-blue-400 mb-3"></i> <h3 class="text-xl font-semibold">MySQL</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-cogs fa-3x text-gray-400 mb-3"></i> <h3 class="text-xl font-semibold">Maven</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-10 md:py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-sky-400">My Projects</h2> <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="project-card overflow-hidden">
+                <img src="images/calc.jpg" alt="Sleek Calculator Screenshot" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-2 text-sky-400">Sleek Calculator</h3>
+                    <p class="text-slate-300 mb-4 text-sm">
+                        Created a modern, responsive web-based calculator. Focused on user experience by implementing switchable themes, full keyboard input support, and memory functions.
+                    </p>
+                    <div class="mb-4">
+                        <span class="inline-block bg-sky-700 text-sky-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">HTML</span>
+                        <span class="inline-block bg-sky-700 text-sky-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">CSS</span>
+                        <span class="inline-block bg-sky-700 text-sky-200 text-xs font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="https://sleek-calculator.onrender.com" target="_blank" class="flex-1 text-center bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/arunprakashxavier/Sleek-Calculator" target="_blank" class="flex-1 text-center bg-slate-600 hover:bg-slate-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fab fa-github mr-2"></i>View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card overflow-hidden">
+                <img src="images/employee.jpg" alt="Employee Management System Screenshot" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-2 text-sky-400">Employee Management System</h3>
+                    <p class="text-slate-300 mb-4 text-sm">
+                        Developed a full-stack Employee Management System with RESTful APIs to streamline HR operations by efficiently managing employee data (CRUD).
+                    </p>
+                    <div class="mb-4">
+                        <span class="inline-block bg-teal-700 text-teal-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Java</span>
+                        <span class="inline-block bg-teal-700 text-teal-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Spring Boot</span>
+                        <span class="inline-block bg-teal-700 text-teal-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Spring Security</span>
+                        <span class="inline-block bg-teal-700 text-teal-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">JWT</span>
+                        <span class="inline-block bg-teal-700 text-teal-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">MySQL</span>
+                        <span class="inline-block bg-teal-700 text-teal-200 text-xs font-semibold px-2.5 py-0.5 rounded-full">Spring Data JPA</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="#" target="_blank" class="flex-1 text-center bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/arunprakashxavier/Employee-Management-System" target="_blank" class="flex-1 text-center bg-slate-600 hover:bg-slate-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fab fa-github mr-2"></i>View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card overflow-hidden">
+                <img src="images/busapp.jpg" alt="Bus Booking App Screenshot" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-2 text-sky-400">Bus Booking App</h3>
+                    <p class="text-slate-300 mb-4 text-sm">
+                        Engineered a full-stack application for a seamless booking experience, featuring secure REST APIs, JWT-based authentication, and Stripe API integration for payments.
+                    </p>
+                    <div class="mb-4">
+                        <span class="inline-block bg-purple-700 text-purple-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Java</span>
+                        <span class="inline-block bg-purple-700 text-purple-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Spring Boot</span>
+                        <span class="inline-block bg-purple-700 text-purple-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Spring Security</span>
+                        <span class="inline-block bg-purple-700 text-purple-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">JWT</span>
+                        <span class="inline-block bg-purple-700 text-purple-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Stripe API</span>
+                        <span class="inline-block bg-purple-700 text-purple-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Swagger</span>
+                        <span class="inline-block bg-purple-700 text-purple-200 text-xs font-semibold px-2.5 py-0.5 rounded-full">MySQL</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="#" target="_blank" class="flex-1 text-center bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/arunprakashxavier/Bus-Booking-App" target="_blank" class="flex-1 text-center bg-slate-600 hover:bg-slate-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fab fa-github mr-2"></i>View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card overflow-hidden">
+                <img src="images/hospital.jpg" alt="Hospital Management System Screenshot" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-2 text-sky-400">Hospital Management System</h3>
+                    <p class="text-slate-300 mb-4 text-sm">
+                        Designed a system with robust, role-based access control using Spring Security for managing sensitive patient data, appointments, and medication tracking.
+                    </p>
+                    <div class="mb-4">
+                        <span class="inline-block bg-red-700 text-red-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Java 17</span>
+                        <span class="inline-block bg-red-700 text-red-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Spring Boot</span>
+                        <span class="inline-block bg-red-700 text-red-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Spring Security</span>
+                        <span class="inline-block bg-red-700 text-red-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">MySQL</span>
+                        <span class="inline-block bg-red-700 text-red-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Thymeleaf</span>
+                        <span class="inline-block bg-red-700 text-red-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">HTML</span>
+                        <span class="inline-block bg-red-700 text-red-200 text-xs font-semibold px-2.5 py-0.5 rounded-full">CSS</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="#" target="_blank" class="flex-1 text-center bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/arunprakashxavier/Hospital-Management-System" target="_blank" class="flex-1 text-center bg-slate-600 hover:bg-slate-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fab fa-github mr-2"></i>View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card overflow-hidden">
+                <img src="images/resume.jpg" alt="Interactive Resume Webpage Screenshot" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-2 text-sky-400">Interactive Resume Webpage</h3>
+                    <p class="text-slate-300 mb-4 text-sm">
+                        A dynamic and responsive online version of my professional resume, showcasing my skills and experience in a web format.
+                    </p>
+                    <div class="mb-4">
+                        <span class="inline-block bg-indigo-700 text-indigo-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">HTML</span>
+                        <span class="inline-block bg-indigo-700 text-indigo-200 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">CSS</span>
+                        <span class="inline-block bg-indigo-700 text-indigo-200 text-xs font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="https://arun-prakash-resume.onrender.com" target="_blank" class="flex-1 text-center bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="https://github.com/arunprakashxavier/Arun-Prakash-Resume" target="_blank" class="flex-1 text-center bg-slate-600 hover:bg-slate-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300">
+                            <i class="fab fa-github mr-2"></i>View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-10 md:py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-sky-400">Get In Touch</h2>
+            <p class="text-slate-300 max-w-md mx-auto mb-8">
+                I'm always open to discussing new projects, creative ideas or opportunities to be part of something amazing.
+                Feel free to reach out!
+            </p>
+            <a href="mailto:arunprakash2629@gmail.com" class="inline-block bg-sky-500 hover:bg-sky-600 text-white font-semibold px-8 py-3 rounded-lg text-lg transition-transform duration-300 transform hover:scale-105 shadow-lg mb-10">
+                <i class="fas fa-envelope mr-2"></i>Say Hello
+            </a>
+            <div class="flex justify-center space-x-6 md:space-x-8">
+                <a href="mailto:arunprakash2629@gmail.com" target="_blank" class="text-slate-300 hover:text-sky-400 transition-colors duration-300" aria-label="Email">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+                <a href="https://linkedin.com/in/arun-prakash-29nov99" target="_blank" class="text-slate-300 hover:text-sky-400 transition-colors duration-300" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://github.com/arunprakashxavier" target="_blank" class="text-slate-300 hover:text-sky-400 transition-colors duration-300" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/im.arrun/" target="_blank" class="text-slate-300 hover:text-sky-400 transition-colors duration-300" aria-label="Instagram">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="bg-slate-900/70 backdrop-blur-md py-8 text-center mt-6 md:mt-10"> <div class="container mx-auto px-6">
+    <p class="text-slate-400 text-sm">
+        &copy; <span id="currentYear"></span> Arun Prakash. All rights reserved.
+    </p>
+    <p class="text-slate-500 text-xs mt-1">
+        Designed with <i class="fas fa-heart text-sky-500"></i> using Tailwind CSS.
+    </p>
+</div>
+</footer>
+
+<script>
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Simple smooth scroll for navigation links
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                const navbarHeight = document.querySelector('nav').offsetHeight;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
