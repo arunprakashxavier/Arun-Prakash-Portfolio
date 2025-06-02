@@ -9,10 +9,7 @@ This is a single-page static website built to showcase my skills, projects, and 
 ## 🚀 Live Demo 
 
 You can view the live version of my portfolio here:
-
-[your-live-portfolio-url.com](https://your-live-portfolio-url.com)
-
-*(**Note to Arun:** Replace `https://your-live-portfolio-url.com` with the actual URL once your portfolio is deployed. For example, if you use GitHub Pages and your username is `arunprakashxavier`, it might be `https://arunprakashxavier.github.io/your-repository-name/` or `https://arunprakashxavier.github.io/` if the repository is named `arunprakashxavier.github.io`.)*
+https://arunprakashxavier.github.io/arun-prakash-portfolio
 
 ## ✨ Features 
 
@@ -33,20 +30,17 @@ You can view the live version of my portfolio here:
 
 ## 📁 Project Structure 
 
-
-.
-├── index.html                 // The main HTML file for the portfolio
+```
 ├── Arun_Prakash_Resume (11).pdf // My resume in PDF format
-├── images/                    // Folder containing all images used
+├── images/                    
 │   ├── profile.jpg
 │   ├── calc.jpg
 │   ├── employee.jpg
 │   ├── busapp.jpg
 │   ├── hospital.jpg
 │   └── resume.jpg
-└── README.md                  // This file
-
-
+└── README.md                 
+```
 ## ⚙️ Setup and Local Development 
 
 1.  **Clone the repository (optional, if you're viewing this on GitHub):**
