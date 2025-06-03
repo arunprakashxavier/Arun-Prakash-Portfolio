@@ -31,7 +31,7 @@ https://arunprakashxavier.github.io/arun-prakash-portfolio
 ## 📁 Project Structure 
 
 ```
-├── Arun_Prakash_Resume (11).pdf // My resume in PDF format
+├── Arun_Prakash_Resume.pdf // My resume in PDF format
 ├── images/                    
 │   ├── profile.jpg
 │   ├── calc.jpg
