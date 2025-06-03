@@ -9,8 +9,7 @@ This is a single-page static website built to showcase my skills, projects, and 
 ## 🚀 Live Demo 
 
 You can view the live version of my portfolio here:
-https://arunprakashxavier.github.io/arun-prakash-portfolio
-
+(https://arun-prakash-portfolio.onrender.com)
 ## ✨ Features 
 
 * **Responsive Design:** Adapts to various screen sizes (desktops 🖥️, tablets 📱, and mobile phones 🤳).
